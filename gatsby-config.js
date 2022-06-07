@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Blog Demo",
+    title: "Cheapskate SEO",
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -19,4 +19,9 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
   ],
+  siteMetadata: {
+    // If you didn't use the resolveSiteUrl option this needs to be set
+    siteUrl: `https://www.cheapskateseo.com`,
+  },
+  plugins: [`gatsby-plugin-sitemap`],
 };
