@@ -18,10 +18,6 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
   ],
-  siteMetadata: {
-    // If you didn't use the resolveSiteUrl option this needs to be set
-    siteUrl: `https://www.cheapskateseo.com`,
-  },
-  plugins: [`gatsby-plugin-sitemap`],
 };
